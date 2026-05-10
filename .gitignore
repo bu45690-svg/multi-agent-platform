@@ -1,0 +1,28 @@
+﻿# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# Environment - NEVER commit API keys
+.env
+
+# Docker
+*.log
+
+# FAISS index cache
+.index_cache/
+*.faiss
+*.pkl
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
